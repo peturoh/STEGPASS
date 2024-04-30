@@ -172,6 +172,7 @@ def main():
                 
                 if strength == "Very Weak": # Issue a warning for very weak passwords
                     print("Warning: You have chosen a very weak password. Consider using a stronger one for better security.")
+                    print("As a recommendation, use a password with at least 10 characters, including uppercase, lowercase, digits, and special characters.")
                     try_again = input("Would you like to enter a different password? (y/n): ").lower()
                     if try_again == "n":
                         break  # Proceed with caution
